@@ -4,32 +4,30 @@
 
 
 <!-- blank-page24:04-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <!-- Favicons -->
+    <!-- Favicons -->
     <link href="assets/img/favicon.ico" rel="icon">
     <title>GMM Admin Dashboard</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.min.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+
 </head>
 
 <body>
     <div class="main-wrapper">
         <div class="header">
-			<div class="header-left">
-				<a href="index-2.html" class="logo">
-					<img src="assets/img/logo.jpg" width="35" height="35" alt=""> <span>GMM</span>
-				</a>
-			</div>
-			<a id="toggle_btn" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+            <div class="header-left">
+                <a href="index-2.html" class="logo">
+                    <img src="assets/img/logo.jpg" width="35" height="35" alt=""> <span>GMM</span>
+                </a>
+            </div>
+            <a id="toggle_btn" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
             <a id="mobile_btn" class="mobile_btn float-left" href="#sidebar"><i class="fa fa-bars"></i></a>
-            <ul class="nav user-menu float-right">
+            <!-- <ul class="nav user-menu float-right">
                 <li class="nav-item dropdown d-none d-sm-block">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="fa fa-bell-o"></i> <span class="badge badge-pill bg-danger float-right"></span></a>
                     <div class="dropdown-menu notifications">
@@ -116,9 +114,10 @@
 						<a class="dropdown-item" href="login.html">Logout</a>
 					</div>
                 </li>
-            </ul>
+            </ul> -->
             <div class="dropdown mobile-user-menu float-right">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i
+                        class="fa fa-ellipsis-v"></i></a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="profile.html">My Profile</a>
                     <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
@@ -135,56 +134,128 @@
                         <li>
                             <a href="index-2.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
                         </li>
-						<li>
+                        <li>
                             <a href="doctors.html"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
                         </li>
-                        
+
                         <li>
                             <a href="appointments.html"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
                         </li>
                         <li>
-                            <a href="schedule.html"><i class="fa fa-calendar-check-o"></i> <span>Doctor Schedule</span></a>
+                            <a href="schedule.html"><i class="fa fa-calendar-check-o"></i> <span>Doctor
+                                    Schedule</span></a>
                         </li>
                         <li>
                             <a href="departments.html"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
                         </li>
-						
-						
-						
-                      
+
+
+
+
                         <li class="submenu">
-                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="add-blog.html">Add Blog</a></li>
                                 <li><a href="edit-blog.html">Edit Blog</a></li>
                             </ul>
                         </li>
-						
-						
+
+
                         <li>
                             <a href="settings.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
                         </li>
-                        
-                        
+
+
                     </ul>
                 </div>
             </div>
         </div>
         <div class="page-wrapper">
+
             <div class="content">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="page-title">Blank Page</h4>
+
+                    <h4 class="page-title ">Home Page</h4>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="slide-1" src="./assets/img/carousel-images/carousel-bg-1.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="slide-2" src="./assets/img/carousel-images/carousel-bg-1.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="slide-3" src="./assets/img/carousel-images/carousel-bg-1.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev bg-transparent border-0" type="button"
+                            data-target="#carouselExampleControls" data-slide="prev">
+                            <span class="carousel-control-prev-icon p-3" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next bg-transparent border-0 " type="button"
+                            data-target="#carouselExampleControls" data-slide="next">
+                            <span class="carousel-control-next-icon p-3" aria-hidden="true"></span>
+                        </button>
                     </div>
+
+                    <div class="file-input">
+                        <label for="file" class="file">Select image for slide 1</label>
+                        <input type="file" id="file" class="slide-1-image image-upload">
+                        <input type="submit" class="image-upload-submit" onclick="setImage()">
+                        <br>
+                        <label for="file" class="file">Select image for slide 2</label>
+                        <input type="file" id="file" class="slide-2-image image-upload">
+                        <input type="submit" class="image-upload-submit" onclick="setImage()">
+                        <br>
+                        <label for="file" class="file">Select image for slide 3</label>
+                        <input type="file" id="file" class="slide-3-image image-upload">
+                        <input type="submit" class="image-upload-submit" onclick="setImage()">
+
+                    </div>
+
+
+
+                    <div class="row mt-5">
+                        <div class="col-lg-7">
+                          <div class="section-title position-relative pb-3">
+                            <h2 class="text-uppercase text-center">About us</h2>
+
+                            <h1 class="mb-0" style="text-align: start !important;text-transform: capitalize;">
+                                The Best medical Solution With 52 Years of Experience
+                            </h1>
+                          </div>
+                          <article class="mb-4" style="text-align: justify !important;">
+                            Rev George Mathen Medical Mission hospital is a not-for profit, primary health care institutioin located in Mallappally. The hospital provides professional medical services in General Medicine, Pediatrics, Cardiology, Orthopedics, Emergency Medicine, nephrology, ENT & Community Medicine and . With its deserved reputation for reliability and concern for the well being of the less fortunate among the community, GMM Hospital has over the years emerged as the prime healing hub of the wider area.
+                
+                          </article>
+                        </div>
+                        <div class="col-lg-5" style="min-height: 300px;">
+                          <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100 rounded"
+                              src="./assets/img/carousel-images/carousel-bg-1.jpg" style="object-fit: cover;">
+                          </div>
+                          <input type="file" class="image-upload">
+                          <input type="submit" class="image-upload-submit" onclick="setImage()">
+                        </div>
+
+                        
+                      </div>
+
+
+
                 </div>
             </div>
-           
+
         </div>
     </div>
     <div class="sidebar-overlay" data-reff=""></div>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slimscroll.js"></script>
     <script src="assets/js/app.js"></script>
@@ -192,4 +263,5 @@
 
 
 <!-- blank-page24:04-->
+
 </html>
