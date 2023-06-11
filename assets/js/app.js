@@ -266,18 +266,3 @@ $(document).ready(function($) {
 		});
 	}
 });
-
-
-function setImage(){
-	// if(i==1){
-		const image= document.querySelector(".slide-1"),
-	    input= document.querySelector(".slide-1-image");
-
-		input.addEventListener("change", () =>{
-			image.src= URL.createObjectURL(input.files[0]);
-		})
-	// }
-}
-
-
-
