@@ -13,10 +13,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.min.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -60,290 +57,286 @@
             <div class="sidebar-inner slimscroll">
                 <div id="sidebar-menu" class="sidebar-menu">
                     <ul>
-                        <li class="menu-title">Main</li>
+                        <li class="menu-title"></li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
+                            <a href="./index.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
                         </li>
-						<li>
-                            <a href="doctors.html"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
-                        </li>
-                        
-                        <li>
-                            <a href="appointments.html"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
-                        </li>
-                        <li>
-                            <a href="schedule.html"><i class="fa fa-calendar-check-o"></i> <span>Doctor Schedule</span></a>
-                        </li>
-                        <li>
-                            <a href="departments.html"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
-                        </li>
-						
-						
-						
-                      
                         <li class="submenu">
-                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="fa fa-user"></i> <span> About </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="add-blog.html">Add Blog</a></li>
-                                <li><a href="edit-blog.html">Edit Blog</a></li>
+                                <li><a href="./RevGeorgemathen.html">Rev.George Mathen</a></li>
+                                <li><a href="./Vision&Mision.html">Vision & Mission</a></li>
+                                <li><a href="./Governingboard.html">Governing Board</a></li>
                             </ul>
                         </li>
-						
-						
                         <li>
-                            <a href="settings.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
+                            <a href="./Appointments.html"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
                         </li>
-                        
-                        
+                        <li>
+                            <a href="./Doctors.html"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
+                        </li> 
+                        <li>
+                            <a href="./Departments.html"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
+                        </li>
+                        <li>
+                            <a href="./Facilities.html"><i class="fa fa-building-o"></i> <span>Facilities</span></a>
+                        </li>
+                        <li>
+                            <a href="./Gallery.html"><i class="fa fa-image"></i> <span>Gallery</span></a>
+                        </li>
+                      
                     </ul>
                 </div>
             </div>
         </div>
         <div class="page-wrapper">
             <div class="content">
-                <div class="row">
-                    <div class="col-sm-4 col-3">
-                        <h4 class="page-title">Doctors</h4>
+                <section id="doctors" class="doctors">
+                    <div class="section-title">
+                        <h2 class="text-uppercase">Doctors</h2>
                     </div>
-                    <div class="col-sm-8 col-9 text-right m-b-20">
-                        <a href="add-doctor.html" class="btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Add Doctor</a>
-                    </div>
-                </div>
-				<div class="row doctor-grid">
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrKaChacko.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr K. A Chacko</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0"> Chief Medical Officer</p>
-                               <p>(MBBS, FCAMS)</p>
-                            </div>
-                            
-                            
+                    <div class="row d-flex justify-content-end mb-5">
+                        <div class="col-sm-12 text-right ">
+                            <a href="./AddDoctor.html" class="btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i>Add Doctor</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/no-image.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                    <div class="row doctor-grid">
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrKaChacko.jpg"></a>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr N Damodaran</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Chief Physician</p>
-                               <p>(MBBS, MD)</p>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrBinoyGRussel.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Binoy G Russel</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0"> Family Physician</p>
-                               <p>(MBBS, FCAMS)</p>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrPhiliposejohn.jpeg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr K. A Chacko</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0"> Chief Medical Officer</p>
+                                   <p>(MBBS, FCAMS)</p>
                                 </div>
+                                
+                                
                             </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Philipose John</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Cardiologist</p>
-                               <p>(MBBS, MD, DM)</p>
-                            </div>
-                            
-                            
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSunnychenDevasia.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/no-image.jpg"></a>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sunnychen Devasia</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Pediatrician</p>
-                               <p>(MBBS, DCH)</p>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrVarkeySKulangara.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Varkey S Kulangara</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Orthopedic Surgeon</p>
-                               <p>(MBBS, MS, DNB, MRCS)</p>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrKiranBabu.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr N Damodaran</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Chief Physician</p>
+                                   <p>(MBBS, MD)</p>
                                 </div>
+                                
+                                
                             </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Kiran Babu</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">ENT Surgeon</p>
-                               <p>(MBBS, MS)</p>
-                            </div>
-                            
-                            
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSnehaAnnaJoy.jpeg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrBinoyGRussel.jpg"></a>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sneha Anna Joy</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Consultant Nephrologist</p>
-                               <p>(MBBS, MD, DM, Nephrology)</p>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrRohanChackoJacob.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Rohan Chacko Jacob</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Casualty Medical Officer</p>
-                               <h6>(MBBS)</h6>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSaraJacob.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Binoy G Russel</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0"> Family Physician</p>
+                                   <p>(MBBS, FCAMS)</p>
                                 </div>
+                                
+                                
                             </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sara Jacob</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">Casualty Medical Officer</p>
-                               <h6>(MBBS)</h6>
-                            </div>
-                            
-                            
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-lg-3">
-                        <div class="profile-widget">
-                            <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/no-image.jpg"></a>
-                            </div>
-                            <div class="dropdown profile-action">
-                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrPhiliposejohn.jpeg"></a>
                                 </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Philipose John</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Cardiologist</p>
+                                   <p>(MBBS, MD, DM)</p>
+                                </div>
+                                
+                                
                             </div>
-                            <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Midhun Raj</a></h4>
-                            <div class="doc-prof">
-                               <p class="mb-0">General Practitioner</p>
-                               <h6>(MBBS)</h6>
-                            </div>
-                            
-                            
                         </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSunnychenDevasia.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sunnychen Devasia</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Pediatrician</p>
+                                   <p>(MBBS, DCH)</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrVarkeySKulangara.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Varkey S Kulangara</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Orthopedic Surgeon</p>
+                                   <p>(MBBS, MS, DNB, MRCS)</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrKiranBabu.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Kiran Babu</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">ENT Surgeon</p>
+                                   <p>(MBBS, MS)</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSnehaAnnaJoy.jpeg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sneha Anna Joy</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Consultant Nephrologist</p>
+                                   <p>(MBBS, MD, DM, Nephrology)</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrRohanChackoJacob.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Rohan Chacko Jacob</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Casualty Medical Officer</p>
+                                   <h6>(MBBS)</h6>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/DrSaraJacob.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Sara Jacob</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">Casualty Medical Officer</p>
+                                   <h6>(MBBS)</h6>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-lg-3">
+                            <div class="profile-widget">
+                                <div class="doctor-img">
+                                    <a class="avatar" href="profile.html"><img alt="" src="assets/img/doctors/no-image.jpg"></a>
+                                </div>
+                                <div class="dropdown profile-action">
+                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="EditDoctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    </div>
+                                </div>
+                                <h4 class="doctor-name text-ellipsis"><a href="profile.html">Dr Midhun Raj</a></h4>
+                                <div class="doc-prof">
+                                   <p class="mb-0">General Practitioner</p>
+                                   <h6>(MBBS)</h6>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                       
                     </div>
-                   
-                </div>
+                </section>
+                
 				
 
             </div>
@@ -363,6 +356,21 @@
 			</div>
 		</div>
     </div>
+    <footer>
+        <div class="text-center text-white p-3 footer-background">
+            <div class="copyright">
+                <small>
+                    © Copyright gmmhospital. All Rights Reserved
+                </small> 
+            </div>
+            <div class="designed">
+                <small >
+                    Designed by &nbsp;<a href="">AZAIC TECH LLP</a> 
+                </small>
+            </div>
+                
+        </div>
+    </footer>
     <div class="sidebar-overlay" data-reff=""></div>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
